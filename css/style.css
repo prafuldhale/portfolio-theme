@@ -1,0 +1,53 @@
+header{
+    color: rgb(63, 6, 6);
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.left{
+    display: inline-block;
+    position:absolute; 
+    top: 0px;
+    left: 40px;
+}
+.right{
+    border: 2px solid white;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.center{
+    margin: 0px auto;
+    display: block;
+    width: 600px;
+}
+
+.navbar{
+    margin-top: 40px;
+    overflow: auto;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.navbar li a:hover{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    
+}
+.heading h1{
+    margin: 246px auto;
+    width: 1000px;
+    display: block;
+    font-size: 60px;
+}
